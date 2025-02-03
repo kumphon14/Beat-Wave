@@ -45,8 +45,8 @@ axB.set_ylabel("y")
 axB.grid(color='lightgray', linestyle='--', linewidth=0.5)  # Add grid for Beat Wave
 
 # Add vertical dashed lines at Node positions
-for node in node_positions:
-    axB.axvline(x=node, color='green', linestyle='--', linewidth=2, label="Node" if node == node_positions[0] else "")
+#for node in node_positions:
+#    axB.axvline(x=node, color='green', linestyle='--', linewidth=2, label="Node" if node == node_positions[0] else "")
 
 # Update function
 def waveLine(frame):
